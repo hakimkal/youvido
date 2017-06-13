@@ -1,0 +1,9 @@
+rootProject.name = 'YouVido'
+include ':react-native-native-video-player'
+project(':react-native-native-video-player').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-native-video-player/android')
+include ':react-native-youtube'
+project(':react-native-youtube').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-youtube/android')
+include ':react-native-video'
+project(':react-native-video').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-video/android')
+
+include ':app'
